@@ -4,7 +4,7 @@ import axios from 'axios';
 export const getBackendUrl = () => {
   return import.meta.env.MODE === 'development'
     ? 'http://localhost:3000'
-    : (import.meta.env.VITE_BACKEND_URL?.trim() || 'https://ecommerce-backend-1-26u7.onrender.com');
+    : (import.meta.env.VITE_BACKEND_URL?.trim() || 'https://ecommerce-backend-0a6b.onrender.com');
 };
 
 console.log('Backend URL (final):', getBackendUrl());
